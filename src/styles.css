@@ -1,0 +1,215 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.page-container {
+  max-width: 600px; /* Középre helyezett szűkebb tartalom */
+  margin: 0 auto; /* Középre igazítás */
+  padding: 20px;
+  text-align: left;
+}
+
+.section-title {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.navbar {
+  background: #6a9bbd;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px; /* Növeli a betűméretet */
+  font-weight: bold;
+}
+
+.container {
+  padding: 20px;
+}
+
+.footer {
+  background: #6a9bbd;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  position: relative;
+  margin-top: 20px; /* Térköz biztosítása a tartalom és a lábléc között */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.booking-form label,
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px; /* Egységes térköz a mezők között */
+}
+
+.booking-form input,
+.booking-form select,
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  margin-bottom: 5px; /* Nagyobb térköz a mezők között */
+}
+
+.contact-form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.contact-form button,
+.booking-button {
+  margin-top: 10px; /* Extra térköz a gomb előtt */
+  padding: 12px 24px;
+  border-radius: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover,
+.booking-button:hover {
+  background-color: #0056b3;
+}
+
+.contact-info {
+  text-align: left;
+  margin-top: 20px;
+  max-width: 400px; /* Ugyanolyan szélesség, mint az űrlapé */
+}
+
+.thank-you {
+  color: green;
+  font-weight: bold;
+}
+
+.square-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  .square-img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.light-blue-bg {
+  background-color: #d0f0ff;
+  padding: 15px;
+}
+
+.rounded-card {
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.rounded-input {
+  border-radius: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 400px;
+}
+
+.rounded-button {
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.rounded-button:hover {
+  background-color: #0056b3;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #d0f0ff;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Képek és tartalom középre igazítása */
+  width: 300px;
+}
+
+.card img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.experience-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Középre igazítás a doboz közepén */
+  text-align: center;
+  margin-top: 20px;
+}
+
+.experience-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.experience-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.experience-label {
+  margin-top: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
