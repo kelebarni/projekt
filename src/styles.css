@@ -6,8 +6,8 @@ body {
 }
 
 .page-container {
-  max-width: 600px; /* Középre helyezett szűkebb tartalom */
-  margin: 0 auto; /* Középre igazítás */
+  max-width: 600px; 
+  margin: 0 auto; 
   padding: 20px;
   text-align: left;
 }
@@ -36,7 +36,7 @@ body {
 .navbar ul li a {
   color: white;
   text-decoration: none;
-  font-size: 18px; /* Növeli a betűméretet */
+  font-size: 18px; 
   font-weight: bold;
 }
 
@@ -51,7 +51,7 @@ body {
   padding: 10px;
   width: 100%;
   position: relative;
-  margin-top: 20px; /* Térköz biztosítása a tartalom és a lábléc között */
+  margin-top: 20px; 
 }
 
 form {
@@ -65,7 +65,7 @@ form {
 .contact-form label {
   display: flex;
   flex-direction: column;
-  margin-bottom: 15px; /* Egységes térköz a mezők között */
+  margin-bottom: 15px; 
 }
 
 .booking-form input,
@@ -77,7 +77,7 @@ form {
   border-radius: 10px;
   border: 1px solid #ccc;
   margin-top: 5px;
-  margin-bottom: 5px; /* Nagyobb térköz a mezők között */
+  margin-bottom: 5px; 
 }
 
 .contact-form textarea {
@@ -87,7 +87,7 @@ form {
 
 .contact-form button,
 .booking-button {
-  margin-top: 10px; /* Extra térköz a gomb előtt */
+  margin-top: 10px; 
   padding: 12px 24px;
   border-radius: 10px;
   background-color: #007bff;
@@ -104,7 +104,7 @@ form {
 .contact-info {
   text-align: left;
   margin-top: 20px;
-  max-width: 400px; /* Ugyanolyan szélesség, mint az űrlapé */
+  max-width: 400px; 
 }
 
 .thank-you {
@@ -174,7 +174,7 @@ form {
   text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Képek és tartalom középre igazítása */
+  align-items: center; 
   width: 300px;
 }
 
@@ -189,7 +189,7 @@ form {
 .experience-gallery {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Középre igazítás a doboz közepén */
+  align-items: center; 
   text-align: center;
   margin-top: 20px;
 }
